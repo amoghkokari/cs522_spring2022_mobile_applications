@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">amogh_mahadev_kokari_FirstApp</string>
+    <string name="app_heading">Amogh Mahadev Kokari\'s \n FirstApp</string>
+    <string name="prompt_string">Enter your name and hit SUBMIT </string>
+    <string name="submit">SUBMIT</string>
+    <string name="my_name">Amogh</string>
+    <string name="user_input">UserInput</string>
+</resources>

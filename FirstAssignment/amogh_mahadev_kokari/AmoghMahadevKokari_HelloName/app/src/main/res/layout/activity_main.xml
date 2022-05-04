@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8pt"
+        android:background="@color/highlighter"
+        android:text="@string/app_heading"
+        android:shadowColor="@color/highlighter"
+        android:typeface="serif"
+        android:textAlignment="center"
+        android:textColor="@color/bg"
+        android:textSize="9pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:text="@string/prompt_string"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50pt"
+        android:layout_marginLeft="20pt"
+        android:layout_marginRight="20pt"
+        android:textSize="11pt"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/main_text"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/text_box_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32pt"
+        android:layout_marginTop="20pt"
+        android:layout_marginRight="32pt"
+        android:layout_marginBottom="20pt"
+        android:textColor="@color/main_text"
+        android:hint="@string/my_name"
+        android:textColorHint="@color/secondary_text"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="10pt" />
+
+    <Button
+        android:id="@+id/button"
+        android:text="@string/submit"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/highlighter"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
