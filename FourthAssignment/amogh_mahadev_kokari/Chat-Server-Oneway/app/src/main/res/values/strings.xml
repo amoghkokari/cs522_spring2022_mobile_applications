@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dominic\'s Chat Server (Room)</string>
+
+    <!-- Use this to reference the development machine from emulator -->
+    <string name="localhost">10.0.2.2</string>
+
+    <integer name="app_port">6666</integer>
+
+    <string name="latitude">40.744906</string>
+    <string name="longitude">-74.023937</string>
+
+    <!-- String literals in the UI -->
+    <string name="destination_host">Destination Host</string>
+    <string name="target_host_default">10.0.2.2</string>
+    <string name="destination_port">Destination Port</string>
+    <string name="target_port_default">6666</string>
+    <string name="message_edit_text">Type your message here.</string>
+
+    <string name="send_label">SEND</string>
+    <string name="next_label">NEXT</string>
+    <string name="show_peers">PEERS</string>
+
+    <string name="title_peers">List of Peers</string>
+    <string name="title_peer_details">Char Peer Details</string>
+    <string name="title_peer_messages">Messages</string>
+
+    <string name="view_user_name">User Name: %s</string>
+    <string name="view_timestamp">Last Seen: %s</string>
+    <string name="view_location">GPS: %f, %f</string>
+
+</resources>
