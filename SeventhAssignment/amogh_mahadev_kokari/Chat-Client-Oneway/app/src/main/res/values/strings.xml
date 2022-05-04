@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Amogh\'s Chat Client</string>
+
+    <integer name="app_port">6666</integer>
+    <string name="latitude">40.744906</string>
+    <string name="longitude">-74.023937</string>
+
+    <!-- Use this to reference the development machine from emulator -->
+    <string name="localhost">10.0.2.2</string>
+
+    <!-- String literals in the UI -->
+    <string name="destination_host">Destination Host:</string>
+    <string name="destination_host_default">10.0.2.2</string>
+    <string name="chat_room">Chat Room:</string>
+    <string name="chat_room_default">_default</string>
+    <string name="chat_name">Chat Name:</string>
+    <string name="chat_name_edit_text">Type your chat name here.</string>
+    <string name="message_edit_text">Type your message here.</string>
+
+    <string name="missing_destination_host">Missing destination host!</string>
+    <string name="missing_chat_room">No chat room specified!</string>
+    <string name="missing_chat_name">No chat name specified!</string>
+    <string name="missing_chat_text">No chat message specified!</string>
+
+
+    <!-- Dialogs -->
+    <string name="send">SEND</string>
+    <string name="cancel">CANCEL</string>
+
+</resources>
