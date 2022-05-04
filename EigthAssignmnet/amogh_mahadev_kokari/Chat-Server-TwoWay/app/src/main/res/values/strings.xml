@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Amogh\'s Chat App</string>
+
+    <string name="title_activity_chat">Chat</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_view_peers">ViewPeers</string>
+    <string name="title_activity_view_peer">ViewPeer</string>
+
+    <integer name="app_port">6666</integer>
+
+    <string name="latitude">40.744906</string>
+    <string name="longitude">-74.023937</string>
+
+    <string name="already_taken">Chat name already taken!</string>
+    <string name="register_success">Successfully registered!</string>
+    <string name="register_necessary">Registration required!</string>
+
+    <!-- String literals in the UI -->
+
+    <string name="target_host_default">10.0.2.2</string>
+    <string name="target_port_default">6666</string>
+    <string name="sender_name">Sender Name:</string>
+    <string name="send_label">SEND</string>
+    <string name="register_label">REGISTER</string>
+    <string name="peers_label">PEERS</string>
+
+    <string name="messages_heading">Sender: %1$s [Chatroom: %2$s]</string>
+
+    <string name="message_received">Message received in chat room %s!</string>
+
+    <string name="chat_user_name">Chat Name:</string>
+    <string name="chat_room_text">Chat Room</string>
+
+    <string name="chat_server">Chat Server:</string>
+    <string name="chat_server_text">Chat Server</string>
+
+    <string name="chat_name_text">User Name</string>
+
+    <string name="destination_host">Destination Host:</string>
+    <string name="destination_host_default">10.0.2.2</string>
+    <string name="destination_port">Destination Port</string>
+    <string name="destination_port_default">6666</string>
+
+    <string name="chat_room">Chat Room:</string>
+    <string name="chat_room_default">_default</string>
+    <string name="chat_name">Chat Name:</string>
+    <string name="chat_name_edit_text">Type your chat name here.</string>
+    <string name="message_edit_text">Type your message here.</string>
+
+    <string name="chatrooms_title">Chat Rooms</string>
+    <string name="missing_destination_host">Missing destination host!</string>
+    <string name="missing_destination_port">Missing destination port!</string>
+    <string name="missing_chat_room">No chat room specified!</string>
+    <string name="missing_chat_name">No chat name specified!</string>
+    <string name="missing_chat_text">No chat message specified!</string>
+    <string name="missing_chat_room_name">Missing name for new chat room!</string>
+
+    <string name="peers_title">Chat Peers</string>
+
+    <!-- Dialogs -->
+    <string name="add">ADD</string>
+    <string name="send">SEND</string>
+    <string name="cancel">CANCEL</string>
+
+    <string name="title_peers">List of Peers</string>
+    <string name="title_peer_details">Char Peer Details</string>
+    <string name="title_peer_messages">Messages</string>
+
+    <string name="view_user_name">User Name: %s</string>
+    <string name="view_timestamp">Last Seen: %s</string>
+    <string name="view_location">GPS: %1$f, %2$f</string>
+
+</resources>
